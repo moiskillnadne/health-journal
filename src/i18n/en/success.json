@@ -1,0 +1,56 @@
+{
+  "EMAIL_CONFIRMED": "Email Confirmed Successfully.",
+  "REFFERAL_ADDED": "Referral Added Successfully.",
+  "RESTORE_PASSWORD_EMAIL_WAS_SENT": "Email contains the link to restore your Vital Op password was sent successfully.",
+  "RESTORE_USERNAME_EXECUTED": "Restore username process executed successfully",
+  "PASSWORD_RESTORED": "Your password was restored successfully.",
+  "SIGN_OUT": "Sign out success.",
+  "EMAIL_SENT": "Email has been successfully sent.",
+  "SUCCESS_CREATE": "Created successfully.",
+  "SUCCESS_UPDATE": "Updated successfully.",
+  "SUCCESS_DELETE": "Deleted successfully.",
+  "USER": {
+    "LANGUAGE_UPDATED": "User language changed successfully.",
+    "MEASUREMENT_UPDATED": "User measurement system changed successfully.",
+    "EMAIL_VERIFIED": "New email has been successfully confirmed.",
+    "PASSWORD_CHANGED": "Password has been successfully changed.",
+    "DEVICE_SAVED": "User device saved successfully."
+  },
+  "SUPPORT": {
+    "EMAIL_SENT": "Email has been successfully sent."
+  },
+  "HEALTH_RECORD": {
+    "LDL": {
+      "SAVED": "Ldl added successfully."
+    },
+    "TRIGLYCERIDE": {
+      "SAVED": "Triglyceride added successfully."
+    },
+    "WEIGHT": {
+      "SAVED": "Weight added successfully."
+    },
+    "USER_CONDITION": {
+      "SAVED": "User condition added successfully."
+    },
+    "BLOOD_SUGAR": {
+      "SAVED": "Blood sugar added successfully."
+    },
+    "BLOOD_PRESSURE": {
+      "SAVED": "Blood pressure added successfully."
+    },
+    "HBA1C": {
+      "SAVED": "HBA1C added successfully."
+    },
+    "STEPS": {
+      "SAVED": "Steps added successfully."
+    }
+  },
+  "LIFESTYLE_TRACKER": {
+    "SLEEP": {
+      "SAVED": "Sleep added successfully."
+    },
+    "WATER": {
+      "SAVED": "Water saved successfully."
+    }
+  }
+}

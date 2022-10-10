@@ -1,0 +1,84 @@
+{
+  "LINK_EXPIRED": "TODO",
+  "ATTEMPT_LIMIT": "TODO",
+  "USER_EXIST": {
+    "BY_EMAIL_AND_USERNAME": " Existe unusuario con correo electrónico y nombre de usuario.",
+    "BY_EMAIL": "Ya existe un usuario con correo electrónico.",
+    "BY_USERNAME": "Ya existe un usuario con nombre de usuario."
+  },
+  "CODE": {
+    " INVALID": "Código de verificación proporcionado no válido."
+  },
+  "DEVICE": {
+    "NOT_FOUND": "TODO"
+  },
+  "USER_NOT_CONFIRMED": "TODO",
+  "USER_NOT_FOUND": {
+    "INVALID_CREDENTIALS": "TODO",
+    "BY_USERNAME": "No se encontró el usuario con dicho nombre de usuario.",
+    "BY_EMAIL": "No se encontró el usuario con dicho correo electrónico.",
+    "BY_ID": "No se encontró el usuario por ID."
+  },
+  "USER_DATA": {
+    "NOT_FOUND": "TODO"
+  },
+  "PROCEDURE": {
+    "NOT_FOUND": "TODO"
+  },
+  "MEDICATION": {
+    "NOT_FOUND": "TODO"
+  },
+  "NOTIFICATION": {
+    "NOT_FOUND": "TODO"
+  },
+  "ADMIN_PANEL": {
+    "ACCESS_DENIED": "Acceso al panel de administración web denegado.",
+    "INACTIVE_USER": "TODO"
+  },
+  "ACTIONS": {
+    "UPDATE_FAILED": "Actualización fallida.",
+    "LOGIN_UNCONFIRMED_EMAIL_FAILED": "TODO"
+  },
+  "COMMON": {
+    "INTERNAL_SERVER": "Error interno del servidor."
+  },
+  "SETTINGS": {
+    "NOTIFICATIONS": {
+      "NOT_FOUND": "TODO"
+    },
+    "REMINDERS": {
+      "NOT_FOUND": "TODO"
+    }
+  },
+  "GALLERY": {
+    "VIDEO": {
+      "NOT_FOUND": "TODO"
+    },
+    "ARTICLE": {
+      "NOT_FOUND": "TODO"
+    }
+  },
+  "STORAGE": {
+    "NOT_FOUND": "TODO",
+    "INCREMENT_VIEWS_COUNT": {
+      "CONTENT_TYPE_NOT_AVAILABLE": "TODO",
+      "FAILED_INCREMENT": "TODO"
+    }
+  },
+  "SHARE": {
+    "CANNOT_GET_USER_INFO": "Cannot find data about user",
+    "TEMPLATE_COMPILE": "Something happened wrong with preparing your pdf"
+  },
+  "CURRENT_PASSWORD_INCORRECT": "TODO",
+  "ADMIN_USER_TEMPORARILY_BLOCKED": {
+    "FAILED_LOGIN_ATTEMPTS": "TODO"
+  },
+  "MOBILE_USER_TEMPORARILY_BLOCKED": {
+    "FAILED_LOGIN_ATTEMPTS": "TODO"
+  },
+  "MAILCHIMP": {
+    "AUDIENCE": {
+      "MEMBER_EXIST": "TODO"
+    }
+  }
+}

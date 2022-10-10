@@ -1,0 +1,84 @@
+{
+  "LINK_EXPIRED": "Link expired",
+  "ATTEMPT_LIMIT": "Attempt limit exceeded, please try after some time.",
+  "USER_EXIST": {
+    "BY_EMAIL_AND_USERNAME": "User with email and username exist.",
+    "BY_EMAIL": "User with email already exist.",
+    "BY_USERNAME": "User with username already exist."
+  },
+  "CODE": {
+    "INVALID": "Invalid verification code provided."
+  },
+  "DEVICE": {
+    "NOT_FOUND": "Devices was not found."
+  },
+  "USER_NOT_CONFIRMED": "User not confirmed",
+  "USER_NOT_FOUND": {
+    "INVALID_CREDENTIALS": "The Username or Password is incorrect.",
+    "BY_USERNAME": "The user with such username was not found.",
+    "BY_EMAIL": "The user with such email was not found.",
+    "BY_ID": "The user by ID was not found."
+  },
+  "USER_DATA": {
+    "NOT_FOUND": "No related to user health data found."
+  },
+  "PROCEDURE": {
+    "NOT_FOUND": "No procedure found with requested params."
+  },
+  "MEDICATION": {
+    "NOT_FOUND": "No medication found with requested params."
+  },
+  "NOTIFICATION": {
+    "NOT_FOUND": "No notification found with requested params."
+  },
+  "ADMIN_PANEL": {
+    "ACCESS_DENIED": "Access to the web admin panel denied.",
+    "INACTIVE_USER": "Your account is inactive. Please, contact the administrator if you feel this is a mistake."
+  },
+  "ACTIONS": {
+    "UPDATE_FAILED": "Update failed.",
+    "LOGIN_UNCONFIRMED_EMAIL_FAILED": "You can't log into the app. Confirm the email please."
+  },
+  "COMMON": {
+    "INTERNAL_SERVER": "Internal Server Error"
+  },
+  "SETTINGS": {
+    "NOTIFICATIONS": {
+      "NOT_FOUND": "Notifications record not found."
+    },
+    "REMINDERS": {
+      "NOT_FOUND": "Reminders record not found."
+    }
+  },
+  "GALLERY": {
+    "VIDEO": {
+      "NOT_FOUND": "Video not found."
+    },
+    "ARTICLE": {
+      "NOT_FOUND": "Article not found."
+    }
+  },
+  "STORAGE": {
+    "NOT_FOUND": "Storage item not found.",
+    "INCREMENT_VIEWS_COUNT": {
+      "CONTENT_TYPE_NOT_AVAILABLE": "Only 'video' storage items are available to increment the count of views.",
+      "FAILED_INCREMENT": "Failed increment of value 'countViews' for Storage Video item."
+    }
+  },
+  "SHARE": {
+    "CANNOT_GET_USER_INFO": "Cannot find data about user",
+    "TEMPLATE_COMPILE": "Something happened wrong with preparing your pdf"
+  },
+  "CURRENT_PASSWORD_INCORRECT": "Current Password is incorrect",
+  "ADMIN_USER_TEMPORARILY_BLOCKED": {
+    "FAILED_LOGIN_ATTEMPTS": "User temporarily blocked cause count of failed attempts to log in was exceeded"
+  },
+  "MOBILE_USER_TEMPORARILY_BLOCKED": {
+    "FAILED_LOGIN_ATTEMPTS": "User temporarily blocked cause count of failed attempts to log in was exceeded"
+  },
+  "MAILCHIMP": {
+    "AUDIENCE": {
+      "MEMBER_EXIST": "An account with this email already exists."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "EMAIL_CONFIRMED": "Correo electrónico confirmado con éxito.",
+  "REFFERAL_ADDED": "Referencia agregada con éxito.",
+  "RESTORE_PASSWORD_EMAIL_WAS_SENT": "El correo electrónico contiene el enlace para restaurar su contraseña de Vital Op que se envió con éxito.",
+  "RESTORE_USERNAME_EXECUTED": "TODO",
+  "PASSWORD_RESTORED": "Su contraseña fue restaurada correctamente.",
+  "SIGN_OUT": "Cerrarsesión con éxito.",
+  "EMAIL_SENT": "TODO",
+  "SUCCESS_CREATE": "TODO",
+  "SUCCESS_UPDATE": "Actualizado correctamente.",
+  "SUCCESS_DELETE": "TODO",
+  "USER": {
+    "LANGUAGE_UPDATED": "El idioma del usuario se cambió correctamente.",
+    "MEASUREMENT_UPDATED": "El sistema de medición del usuario se modificó correctamente.",
+    "EMAIL_VERIFIED": "TODO",
+    "PASSWORD_CHANGED": "TODO",
+    "DEVICE_SAVED": "TODO"
+  },
+  "SUPPORT": {
+    "EMAIL_SENT": "TODO"
+  },
+  "HEALTH_RECORD": {
+    "LDL": {
+      "SAVED": "TODO"
+    },
+    "TRIGLYCERIDE": {
+      "SAVED": "TODO"
+    },
+    "WEIGHT": {
+      "SAVED": "TODO"
+    },
+    "USER_CONDITION": {
+      "SAVED": "TODO"
+    },
+    "BLOOD_SUGAR": {
+      "SAVED": "TODO"
+    },
+    "BLOOD_PRESSURE": {
+      "SAVED": "TODO"
+    },
+    "HBA1C": {
+      "SAVED": "TODO"
+    },
+    "STEPS": {
+      "SAVED": "TODO"
+    }
+  },
+  "LIFESTYLE_TRACKER": {
+    "SLEEP": {
+      "SAVED": "TODO"
+    },
+    "WATER": {
+      "SAVED": "Water saved successfully."
+    }
+  }
+}

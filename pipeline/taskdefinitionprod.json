@@ -1,0 +1,28 @@
+{
+    "containerDefinitions": [{
+        "essential": true,
+        "name": "api",
+        "image": "<IMAGE1_NAME>",
+        "privileged": true,
+        "portMappings": [
+            {
+                "containerPort": 3000,
+                "hostPort": 3000,
+                "protocol": "tcp"
+            }
+        ],
+        "ulimits" : [{
+          "name" : "nofile",
+          "softLimit" : 1048576,
+          "hardLimit" : 1048576
+        }]
+    }
+    ],
+    "requiresCompatibilities": ["EC2"],
+    "cpu": "2000",
+    "memory": "7900",
+    "executionRoleArn": "arn:aws:iam::253827408111:role/ecs-task-execution-role-prod",
+    "taskRoleArn": "arn:aws:iam::253827408111:role/ecs-task-execution-role-prod",
+    "family": "prod-api",
+    "networkMode": "awsvpc"
+}

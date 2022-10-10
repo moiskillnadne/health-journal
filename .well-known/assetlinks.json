@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "viom_app",
+    "package_name": "com.vitalopwellnessmobile",
+    "sha256_cert_fingerprints": [
+      "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+      "7B:37:D4:E5:3F:A5:0F:E7:AD:41:77:49:7B:7D:D8:3F:70:36:75:62:65:37:E3:A3:ED:AB:4C:FE:A0:2C:8B:C0"
+    ]
+  }
+}]

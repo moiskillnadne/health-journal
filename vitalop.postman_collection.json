@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "61cfea72-f231-41e4-b7f1-551d8cd59491",
+		"name": "VitalOp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"akhvainitski@scnsoft.com\",\n    \"username\": \"akhvainitski\",\n    \"password\": \"Passw0rd\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PROTOCOL}}://{{HOST}}/api/auth/signup",
+							"protocol": "{{PROTOCOL}}",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "confirm-email",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"akhvainitski\",\n    \"code\": \"835844\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PROTOCOL}}://{{HOST}}/api/auth/confirm-email",
+							"protocol": "{{PROTOCOL}}",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"confirm-email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"akhvainitski\",\n    \"password\": \"Passw0rd\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PROTOCOL}}://{{HOST}}/api/auth/login",
+							"protocol": "{{PROTOCOL}}",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "assessment",
+			"item": [
+				{
+					"name": "personal",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJraWQiOiJYT05qXC9sdWlXUGZNU0VSeWNLVFptVzIzUHpVb3ZpT25hYTNhNkRsTHRFdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjMDE4ZDI5MC1lZTdhLTRjZDUtODk4My1jZWMzNTE0MDc5ZjYiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfNnFMN0k3YVVBIiwiY29nbml0bzp1c2VybmFtZSI6ImFraHZhaW5pdHNraSIsIm9yaWdpbl9qdGkiOiJlZjM1NWE2Mi0yMDM2LTRkNDQtYmM4ZS02ZThlZDRhZDczMjYiLCJhdWQiOiIzaGhhcGlmdWYwdnR1amcxMG9mOWpocjJlaCIsImV2ZW50X2lkIjoiMjU5OGFhZmEtNGM0MS00MDI4LWEyN2EtYTgyNTkzODhlOTQ0IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NTI3MjgyNTYsIm5pY2tuYW1lIjoiYWtodmFpbml0c2tpIiwiZXhwIjoxNjUyNzI5MTU2LCJpYXQiOjE2NTI3MjgyNTYsImp0aSI6ImNiNTI0YWUyLWQ1OGYtNDQxOC05MGI4LWZjMWIzYzY4MzM4NCIsImVtYWlsIjoiYWtodmFpbml0c2tpQHNjbnNvZnQuY29tIn0.eQPels5gCN0pe0rppsiSsqEeceoaZdY0lnLtiakiPUtKynBkcv2VJY2-2_apEvsfBgW4Mb_mui2oxv6E2AcyhvunukgO2RGG_eqdJH7abvmegM1rkCvAVGdFxIhK1BldB3HIoA19CtU37Y7BkDaF_gGdlJXW4ukrzEh3uMi3_itOOmqsvVh9Ih61IYrwShMaPs5vkwqqF5ZePw_28r2O2mL7F09_kozUOkgIVL7ooUwO4ayN52LcYmv7ZBJZfFiy2TCcXz0IqMPaJ2ZY4PyFD8axh9JEcTiqtLPxQoeFd_-lw63dsp0fnfbo8mauyy8T36kt-Wle894e_nxwl5zb3w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\": \"firstName\",\n    \"lastName\": \"lastName\",\n    \"dateOfBirth\": \"01/01/1990\",\n    \"gender\": \"male\",\n    \"race\": \"white\",\n    \"city\": \"city\",\n    \"state\": \"state\",\n    \"country\": \"country\",\n    \"height\": {\n        \"cm\": 200\n    },\n    \"weight\": {\n        \"kg\": 75\n    },\n    \"goalWeight\": {\n        \"kg\": 80\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PROTOCOL}}://{{HOST}}/api/assessment/personal",
+							"protocol": "{{PROTOCOL}}",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"api",
+								"assessment",
+								"personal"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

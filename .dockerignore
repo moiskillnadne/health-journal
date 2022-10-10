@@ -1,0 +1,13 @@
+node_modules/
+.git
+dist/
+pipeline/
+*.md
+.env
+.env.*
+.eslintrc.*
+.prettierrc
+Dockerfile
+.husky
+compose/
+test/

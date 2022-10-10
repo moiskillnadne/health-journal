@@ -1,0 +1,30 @@
+{
+  "NOT_EMPTY": "{property} cannot be empty",
+  "INVALID_FORMAT": "{property} has invalid format",
+  "MIN_LENGTH_8": "{property} should have at least 8 symbols",
+  "IS_STRING": "{property} should be string",
+  "IS_BOOL": "{property} should be boolean",
+
+  "PASSWORD_MIN_LENGTH": "Password should have at least 8 symbols",
+  "PASSWORD_INVALID_FORMAT": "Password has invalid format",
+  "PASSWORD_NOT_EMPTY": "Password cannot be empty",
+
+  "CODE_NOT_EMPTY": "Code cannot be empty",
+  "CODE_IS_STRING": "Code should be string",
+
+  "FIRST_NAME_NOT_EMPTY": "First name cannot be empty",
+  "FIRST_NAME_IS_STRING": "First name should be string",
+
+  "LAST_NAME_NOT_EMPTY": "Last name cannot be empty",
+  "LAST_NAME_IS_STRING": "Last name should be string",
+
+  "INVALID_ORDER_OPTION_FORMAT": "The 'order' option should have following format: <orderField> <asc|desc>",
+  "INVALID_ORDER_OPTION_FORMAT_STORAGE": "The 'order' option should have following format: createAt <asc|desc>",
+  "INVALID_ORDER_OPTION_FORMAT_ADMIN_USERS": "The 'order' option should have following format: createAt <asc|desc> or lastLoginAt <asc|desc>",
+  "INVALID_ORDER_OPTION_FORMAT_GALLERY": "The 'order' option should have following format: createAt <asc|desc> or lastLoginAt <asc|desc>",
+  "INVALID_ORDER_OPTION_FORMAT_TRACK": "The 'order' option should have following format: createAt <asc|desc> or lastLoginAt <asc|desc>",
+
+  "EMAIL_BODY_MAX_LENGTH": "The maximum text length is 1000 characters",
+
+  "VALUE_SHOULD_BE_GREATER_THAN_ZERO": "It is not possible to enter value 0."
+}

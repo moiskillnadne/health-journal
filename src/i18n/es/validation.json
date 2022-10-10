@@ -1,0 +1,30 @@
+{
+  "NOT_EMPTY": "{property} no puede estar vacía",
+  "INVALID_FORMAT": "{property} tiene un formato no válido",
+  "MIN_LENGTH_8": "{property} debe tener al menos 8 símbolos",
+  "IS_STRING": "{property} debe ser una cadena",
+  "IS_BOOL": "TODO",
+
+  "PASSWORD_MIN_LENGTH": "La contraseña debe tener al menos 8 símbolos",
+  "PASSWORD_INVALID_FORMAT": "La contraseña tiene un formato no válido",
+  "PASSWORD_NOT_EMPTY": "La contraseña no puede estar vacía",
+
+  "CODE_NOT_EMPTY": "Elcódigo no puede estar vacío",
+  "CODE_IS_STRING": " Elcódigo debe ser una cadena",
+
+  "FIRST_NAME_NOT_EMPTY": "El nombre no puede estar vacío",
+  "FIRST_NAME_IS_STRING": "El nombre debe ser una cadena",
+
+  "LAST_NAME_NOT_EMPTY": "El apellido no puede estar vacío",
+  "LAST_NAME_IS_STRING": "El apellido debe ser una cadena",
+
+  "INVALID_ORDER_OPTION_FORMAT": "TODO",
+  "INVALID_ORDER_OPTION_FORMAT_STORAGE": "TODO",
+  "INVALID_ORDER_OPTION_FORMAT_ADMIN_USERS": "TODO",
+  "INVALID_ORDER_OPTION_FORMAT_GALLERY": "TODO",
+  "INVALID_ORDER_OPTION_FORMAT_TRACK": "TODO",
+
+  "EMAIL_BODY_MAX_LENGTH": "TODO",
+
+  "VALUE_SHOULD_BE_GREATER_THAN_ZERO": "TODO"
+}

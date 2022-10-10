@@ -1,0 +1,8 @@
+{
+  "MOBILE_USER_TEMPORARILY_BLOCKED": {
+    "FAILED_LOGIN_ATTEMPTS": {
+      "SUBJECT": "Account is blocked",
+      "BODY": "Someone tried to log into your account several times. If this was not you, someone may have tried to access your account without your permission. We have locked your account for 20 minutes for this reason."
+    }
+  }
+}

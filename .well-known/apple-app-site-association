@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "JL36X44M34.org.reactjs.native.example.vitalopwellnessMobile",
+        "paths": [ "*" ]
+      },
+      {
+        "appID": "4Z533WP3XL.com.vitalopwellness.mobile",
+        "paths": [ "*" ]
+      }
+    ]
+  }
+}

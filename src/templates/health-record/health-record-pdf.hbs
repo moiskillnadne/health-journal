@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <header>
+      <div class="header_info_block">
+        <div  id="health-record_title"><h2 >HEALTH RECORD</h2></div>
+        <div class="header_user_personal_info_block">
+          <div class="personal_info_name">
+            <p><strong>{{user.name}}</strong></p>
+          </div>
+          <div class="personal_info_dob">
+            <p><strong>DOB: </strong>{{user.dateOfBirth}}</p>
+          </div>
+          <div class="personal_info_gender">
+            <p><strong>Gender: </strong>{{user.gender}}<strong> Race: </strong> {{user.race}}</p>
+          </div>
+          <div class="personal_info_weight_height">
+            <p><strong>Weight: </strong>{{user.weight}}<strong> Height: </strong>{{user.height}}<strong> BMI:</strong> {{user.bmi}}</p>
+          </div>
+          <div class="personal_info_region">
+            <p><strong>City: </strong>{{user.city}}<strong> State: </strong>{{user.state}}<strong> Country: </strong>{{user.country}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="header_logo_block">
+        {{!-- Fix src here --}}
+       <div id="logo_block"><img src="http://localhost:3000/logo-color@3x.png" alt=""></div>
+      </div>
+    </header>
+    <content>
+      <div id="content_grid">
+        <div class="health_record_full_width">
+          <h2 class="table_title">1. Conditions</h2>
+          <div class="grid_table">
+            <div class="conditions_line line_theme table_column_titles_theme">
+              <div class=""><p>№</p></div>
+              <div class=""><p>Condition Name</p></div>
+              <div class=""><p>Period</p></div>
+            </div>
+            {{#conditions}}
+            <div class="conditions_line line_theme {{classNameLine}}">
+              <div class=""><p>{{index}}</p></div>
+              <div class=""><p>{{name}}</p></div>
+              <div class=""><p>{{period}}</p></div>
+            </div>
+            {{/conditions}}
+          </div>
+        </div>
+        <div class="health_record_full_width">
+          <h2 class="table_title">2. Medications</h2>
+          <div class="grid_table">
+            <div class="medication_line line_theme table_column_titles_theme">
+              <div class=""><p>№</p></div>
+              <div class=""><p>Medications Name</p></div>
+              <div class=""><p>Period</p></div>
+              <div class=""><p>Monthly Cost</p></div>
+              <div class=""><p>Dosage</p></div>
+              <div class=""><p>Frequency</p></div>
+            </div>
+            {{#medications}}
+            <div class="medication_line line_theme {{classNameLine}}">
+              <div class=""><p>{{index}}</p></div>
+              <div class=""><p>{{name}}</p></div>
+              <div class=""><p>{{period}}</p></div>
+              <div class=""><p>{{cost}}</p></div>
+              <div class=""><p>{{dose}}</p></div>
+              <div class=""><p>{{frequency}}</p></div>
+            </div>
+            {{/medications}}
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">3. Labs</h2>
+          <div class="grid_table">
+            <div class="labs_line line_theme table_column_titles_theme">
+              <div>
+                <p>Test Name</p>
+              </div>
+              <div>
+                <p>Level</p>
+              </div>
+              <div>
+                <p>Goal Range</p>
+              </div>
+              <div>
+                <p>Date</p>
+              </div>
+            </div>
+
+            {{#labs}}
+              <div class="labs_line line_theme {{classNameLine}}">
+                <div>
+                  <p>{{name}}</p>
+                </div>
+                <div>
+                  <p>{{level}}</p>
+                </div>
+                <div>
+                  <p>{{goalLevel}}</p>
+                </div>
+                <div>
+                  <p>{{date}}</p>
+                </div>
+              </div>
+            {{/labs}}
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">4. Blood Sugar</h2>
+          <div class="grid_table">
+            <div class="blood_sugar_line line_theme table_column_titles_theme">
+              <div>
+                <p>Test Name</p>
+              </div>
+              <div>
+                <p>Level</p>
+              </div>
+              <div>
+                <p>Goal Range</p>
+              </div>
+              <div>
+                <p>Date</p>
+              </div>
+            </div>
+
+            {{#bloodSugar}}
+            <div class="blood_sugar_line line_theme {{classNameLine}}">
+              <div>
+                <p>{{name}}</p>
+              </div>
+              <div>
+                <p>{{level}}</p>
+              </div>
+              <div>
+                <p>{{goalLevel}}</p>
+              </div>
+              <div>
+                <p>{{date}}</p>
+              </div>
+            </div>
+            {{/bloodSugar}}
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">5. Blood Pressure</h2>
+          <div class="grid_table">
+            <div class="blood_pressure_line line_theme table_column_titles_theme">
+              <div>
+                <p>№</p>
+              </div>
+              <div>
+                <p>Systolic, mmHg</p>
+              </div>
+              <div>
+                <p>Diastolic, mmHg</p>
+              </div>
+              <div>
+                <p>Date</p>
+              </div>
+            </div>
+
+            {{#bloodPressure}}
+            <div class="blood_pressure_line line_theme {{classNameLine}}">
+              <div>
+                <p>{{index}}</p>
+              </div>
+              <div>
+                <p>{{systolic}}</p>
+              </div>
+              <div>
+                <p>{{diastolic}}</p>
+              </div>
+              <div>
+                <p>{{date}}</p>
+              </div>
+            </div>
+            {{/bloodPressure}}
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">6. Upcoming Doctor Visits</h2>
+          <div class="grid_table">
+            <div class="upcoming_doctor_visits_line line_theme table_column_titles_theme">
+              <div>
+                <p>№</p>
+              </div>
+              <div>
+                <p>Doctor</p>
+              </div>
+              <div>
+                <p>Date</p>
+              </div>
+            </div>
+
+            {{#upcomingDoctor}}
+            <div class="upcoming_doctor_visits_line line_theme {{classNameLine}}">
+              <div>
+                <p>{{index}}</p>
+              </div>
+              <div>
+                <p>{{doctor}}</p>
+              </div>
+              <div>
+                <p>{{date}}</p>
+              </div>
+            </div>
+            {{/upcomingDoctor}}
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">7. Procedures</h2>
+          <div class="grid_table">
+            <div class="procedures_line line_theme table_column_titles_theme">
+              <div>
+                <p>№</p>
+              </div>
+              <div>
+                <p>Procedure</p>
+              </div>
+              <div>
+                <p>Date</p>
+              </div>
+            </div>
+            {{#procedures}}
+            <div class="procedures_line line_theme {{classNameLine}}">
+              <div>
+                <p>{{index}}</p>
+              </div>
+              <div>
+                <p>{{name}}</p>
+              </div>
+              <div>
+                <p>{{date}}</p>
+              </div>
+            </div>
+            {{/procedures}}
+
+          </div>
+        </div>
+        <div>
+          <h2 class="table_title">8. Additional Info</h2>
+          <div>
+            <textarea id="additional-info-textarea">{{additionalInfo}}</textarea>
+          </div>
+        </div>
+      </div>
+    </content>
+</body>
+</html>
